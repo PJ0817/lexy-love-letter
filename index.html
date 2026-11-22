@@ -6,6 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Little Letter for Lexy 🤍</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Playlist Button Styling -->
+    <style>
+        .playlist-invitation {
+            margin-top: 30px;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        .playlist-invitation p {
+            margin-bottom: 16px;
+        }
+
+        .playlist-button {
+            display: inline-block;
+            padding: 14px 24px;
+            background: #dceeff;
+            color: #526d91;
+            text-decoration: none;
+            border: 1px solid #bfd9f2;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .playlist-button:hover {
+            background: #f8dce8;
+            color: #895b70;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 
 <body>
@@ -26,9 +58,11 @@
         <section id="envelope-screen" class="screen hidden">
             <div class="envelope-content">
                 <h2>A letter for you...</h2>
+
                 <div id="envelope" class="envelope">
                     <div class="envelope-heart">🤍</div>
                 </div>
+
                 <p>Tap the envelope to open it.</p>
             </div>
         </section>
@@ -52,6 +86,7 @@
 
                 <div class="ending">
                     <p>Whenever you're ready...</p>
+
                     <button id="continue-button">
                         Continue to your surprise 🤍
                     </button>
@@ -78,6 +113,7 @@
                     Because you deserve a little something special.
                 </p>
 
+                <!-- Aaliyah Song -->
                 <a id="music-button" href="#" target="_blank">
                     Play your song 🎶
                 </a>
@@ -85,6 +121,19 @@
                 <p class="song-title">
                     4 Page Letter · Aaliyah
                 </p>
+
+                <!-- Personal Playlist -->
+                <div class="playlist-invitation">
+
+                    <p>
+                        And because one little surprise wasn't enough... 🥹
+                    </p>
+
+                    <a href="playlist.html" class="playlist-button">
+                        Listen to Your Little Playlist 🤍
+                    </a>
+
+                </div>
 
             </div>
         </section>
