@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>25 Reasons You Make Me Smile 🤍</title>
+
+    <link rel="stylesheet" href="playlist.css">
+</head>
+
+<body>
+
+    <main class="playlist-container">
+
+        <!-- Welcome Section -->
+        <header class="playlist-header">
+
+            <a href="index.html" class="back-link">
+                ← Back to your letter
+            </a>
+
+            <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+
+            <h1>Lexy Poo's Little Playlist 🤍</h1>
+
+            <p class="header-subtitle">
+                25 Reasons You Make Me Smile
+            </p>
+
+            <p class="header-message">
+                A collection of songs, little thoughts,
+                and reminders of how special you are.
+            </p>
+
+        </header>
+
+
+        <!-- Playlist Artwork -->
+        <section class="playlist-intro">
+
+            <div class="album-artwork">
+
+                <div class="artwork-decoration">♡</div>
+
+                <div class="vinyl-decoration">
+                    <div class="vinyl-center">🤍</div>
+                </div>
+
+                <div class="artwork-text">
+                    <p>MADE WITH LOVE</p>
+                    <h2>For<br>Lexy Poo</h2>
+                    <span>25 songs · 1 special girl</span>
+                </div>
+
+            </div>
+
+            <div class="playlist-details">
+
+                <p class="small-label">YOUR PERSONAL PLAYLIST</p>
+
+                <h2>25 Reasons<br>You Make Me Smile</h2>
+
+                <p>
+                    Every song has a little message from me to you.
+                    I hope you enjoy listening as much as I enjoyed
+                    putting this together.
+                </p>
+
+                <div class="playlist-stats">
+                    <span>🎧 25 Songs</span>
+                    <span>💌 25 Little Notes</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Music Player -->
+        <section class="music-player">
+
+            <div class="player-heading">
+                <p class="small-label">NOW PLAYING</p>
+                <span class="playing-indicator">♡ MADE FOR YOU</span>
+            </div>
+
+            <div class="record-area">
+
+                <div class="vinyl-record" id="vinyl-record">
+                    <div class="record-center">
+                        <span>LP</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="song-information">
+
+                <p id="song-number">SONG 01 OF 25</p>
+
+                <h2 id="song-title">4 Page Letter</h2>
+
+                <p id="song-artist">Aaliyah</p>
+
+            </div>
+
+            <div class="player-controls">
+
+                <button id="previous-button" aria-label="Previous song">
+                    ⏮
+                </button>
+
+                <button id="play-button" aria-label="Play or pause">
+                    ▶
+                </button>
+
+                <button id="next-button" aria-label="Next song">
+                    ⏭
+                </button>
+
+            </div>
+
+            <div class="progress-container">
+                <span id="current-time">0:00</span>
+
+                <div class="progress-track">
+                    <div id="progress-bar"></div>
+                </div>
+
+                <span id="duration">0:00</span>
+            </div>
+
+            <!-- YouTube Player -->
+            <div id="youtube-player-container">
+                <div id="youtube-player"></div>
+            </div>
+
+            <div class="song-note">
+
+                <button id="note-button">
+                    Read my note 💌
+                </button>
+
+                <div id="note-content" class="hidden">
+                    <p class="note-heading">A LITTLE NOTE FROM ME TO YOU</p>
+
+                    <p id="song-note"></p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Song Collection -->
+        <section class="song-collection">
+
+            <div class="collection-heading">
+                <div>
+                    <p class="small-label">THE COLLECTION</p>
+                    <h2>Your Songs 🤍</h2>
+                </div>
+
+                <span>25 TRACKS</span>
+            </div>
+
+            <div id="song-list" class="song-list"></div>
+
+        </section>
+
+
+        <!-- Final Message -->
+        <section class="playlist-ending">
+
+            <div class="ending-heart">♡</div>
+
+            <h2>Made with love, just for you.</h2>
+
+            <p>
+                I hope these songs remind you that you're appreciated,
+                celebrated, and deserving of beautiful things.
+            </p>
+
+            <p class="ending-signature">
+                Your favorite ninja turtle,<br>
+                <strong>PETUHHH</strong> 🤍
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- YouTube API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <script src="playlist.js"></script>
+
+</body>
+</html>
