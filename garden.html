@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexy's Little Garden 🌷</title>
+    <link rel="stylesheet" href="garden.css">
+</head>
+<body>
+    <div class="sky">
+        <div class="sun"></div>
+        <div class="cloud cloud-one">☁️</div>
+        <div class="cloud cloud-two">☁️</div>
+        <div class="butterfly butterfly-one">🦋</div>
+        <div class="butterfly butterfly-two">🦋</div>
+        <div class="sparkle sparkle-one">✧</div>
+        <div class="sparkle sparkle-two">✧</div>
+
+        <main class="garden-container">
+            <section class="welcome">
+                <p class="little-label">A LITTLE PLACE MADE WITH LOVE</p>
+                <h1>Lexy's Little Garden</h1>
+                <p class="subtitle">
+                    A little garden filled with flowers, each holding
+                    a little something I adore about you. 🤍
+                </p>
+                <p class="instruction">Tap a flower to discover its little message 🌸</p>
+            </section>
+
+            <section class="garden" id="garden">
+                <div class="flower flower-one" data-flower="0">
+                    <span class="flower-icon">🌹</span>
+                    <span class="flower-label">Your Beauty</span>
+                </div>
+                <div class="flower flower-two" data-flower="1">
+                    <span class="flower-icon">🌷</span>
+                    <span class="flower-label">Your Heart</span>
+                </div>
+                <div class="flower flower-three" data-flower="2">
+                    <span class="flower-icon">🌻</span>
+                    <span class="flower-label">Your Smile</span>
+                </div>
+                <div class="flower flower-four" data-flower="3">
+                    <span class="flower-icon">🌼</span>
+                    <span class="flower-label">Your Personality</span>
+                </div>
+                <div class="flower flower-five" data-flower="4">
+                    <span class="flower-icon">🪻</span>
+                    <span class="flower-label">Your Peace</span>
+                </div>
+                <div class="flower flower-six" data-flower="5">
+                    <span class="flower-icon">🌸</span>
+                    <span class="flower-label">Friends</span>
+                </div>
+                <div class="flower flower-seven" data-flower="6">
+                    <span class="flower-icon">🌺</span>
+                    <span class="flower-label">Your Uniqueness</span>
+                </div>
+                <div class="flower flower-eight" data-flower="7">
+                    <span class="flower-icon">💐</span>
+                    <span class="flower-label">One Last Thing</span>
+                </div>
+                <div class="grass"></div>
+            </section>
+
+            <p class="garden-footer">
+                Made with a little love, just for you, Lexy Poo. 🤍
+            </p>
+            <a href="playlist.html" class="back-to-playlist">
+    ← Back to Your Playlist 🎶
+</a>
+        </main>
+    </div>
+
+    <div class="message-overlay" id="message-overlay">
+        <div class="message-card">
+            <button class="close-button" id="close-message">×</button>
+            <div class="message-flower" id="message-flower">🌹</div>
+            <p class="message-heading">A LITTLE NOTE FOR YOU</p>
+            <h2 id="message-title">Your Beauty</h2>
+            <p id="message-text"></p>
+            <p class="message-signature">With love, always 🤍</p>
+        </div>
+    </div>
+
+    <div class="completion" id="completion">
+        <div class="completion-card">
+            <div class="bouquet">💐</div>
+            <h2>You explored the whole garden!</h2>
+            <p>And every flower has a little reminder of how special you are.</p>
+            <button id="completion-close">Back to the garden 🤍</button>
+        </div>
+    </div>
+
+    <script src="garden.js"></script>
+</body>
+</html>
